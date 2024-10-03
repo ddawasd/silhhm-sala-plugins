@@ -14,7 +14,7 @@ room.pluginSpec = {
   // All times in the config are in seconds.
   config: {
     // If true, then only admins will be monitored.
-    adminsOnly: true,
+    adminsOnly: false,
     // Max time player can be AFK.
     maxIdleTime: 5 * 60,
     // Max time player can be AFK when he is playing.
