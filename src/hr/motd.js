@@ -14,13 +14,13 @@ room.pluginSpec = {
     // Message to be displayed when player joins.
     // You can use {player} to address the joined player.
     // e.g. `Welcome, {player}!`
-    joinMessage: `Welcome {player}! Type !help for commands.`,
+    joinMessage: `BEM VINDO AO FUTEBAS DO SIL, {player}! FALE !HELP PARA VER OS COMANDOS.`,
     // Message to be displayed repeatedly at speed of given `interval`.
-    repeatedMessage: ``,
+    repeatedMessage: `Aqui não toleramos disrespeito. Fale !help para ver os comandos `,
     // How often to display the `repeatedMessage` (or `message` if former 
     // is missing).
     // Time is in minutes. Set to 0 to disable the repeated message.
-    interval: 10,
+    interval: 5,
     // This setting exists only for backwards compability.
     message: ``,
   },
